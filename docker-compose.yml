@@ -29,7 +29,6 @@ services:
       ]
 
   openclaw-cli:
-    build: .
     image: ${OPENCLAW_IMAGE:-openclaw:local}
     environment:
       HOME: /home/node
